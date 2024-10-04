@@ -1,0 +1,8 @@
+via het file:// protocol
+o door erop te dubbelklikken in de Windows verkenner
+• via het http:// protocol op de host 'localhost' op poort 63342
+o door in Webstorm 'Open in browser' te kiezen
+Wat is het verschil tussen beide?
+
+File protocol: lokale bestanden direct van je harde schijf te openen
+HTTP en local host protocol: dit protocol laat de browser zich voelen alsof het een webserver is.
