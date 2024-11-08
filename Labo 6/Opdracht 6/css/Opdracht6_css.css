@@ -8,7 +8,7 @@
 }
 
 .checklist li {
-    background-image: url('../icoon/rood kruisje.png');
+    background-image: url('../icoon/unchecked.jpg');
     padding-left: 25px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
@@ -18,4 +18,9 @@
 
 .checklist li.checked {
     background-image: url('../icoon/vinkje.png');
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding-bottom: 10px;
+
 }
