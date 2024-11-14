@@ -16,7 +16,7 @@ h1 {
 }
 
 ul {
-    list-style-position: inside; /* Plaatst de opsommingstekens binnen de marge van de tekst */
+    list-style-position: inside; 
 }
 
 ol {
