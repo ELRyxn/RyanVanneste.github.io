@@ -1,7 +1,0 @@
-.tabel table { border-collapse: collapse; text-align: left; width: 100%; }
-.tabel {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-.tabel table td, .datagrid table th { padding: 3px 10px; }
-.tabel table thead th {color-stop(1, #00557F) );;background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8; }
-.tabel table tbody td { color: #00557F; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal; }
-.tabel table tbody .alt td { background: #E1EEf4; color: #00557F; }
-.tabel table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4;}
