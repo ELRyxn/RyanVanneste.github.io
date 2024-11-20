@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opdracht 1</title>
+</head>
+<body>
+<h1>Opdracht 1</h1>
+<ul>
+  <li><strong> welke waarden worden de opgegeven width en height genegeerd?</strong>
+  <ul>
+    <li>De waarde waarbij de width en de height genegeerd wordt is bij de inline waarde</li>
+  </ul></li>
+</ul>
+<ul>
+  <li><strong>Welke waarden worden de elementen als woorden op een pagina gezet? </strong>
+  <ul>
+    <li>De waarde die in woorde wordt omgezet is de inline waarde.</li>
+  </ul></li>
+</ul>
+
+<h1>Opdracht 2</h1>
+<ul>
+  <li><strong>Vanwaar komen de lege ruimtes tussen blokken die naast elkaar staan?</strong>
+  <ul>
+    <li>Doordat we inline gaan instellen worden de blokken gezien als woorden. Tussen woorden staan witruimtes standaard gegenereerd als je inline waarde gebruikt.</li>
+  </ul></li>
+</ul>
+
+<h1>Opdracht 3</h1>
+<ul>
+  <li><strong>Waarom staat de tekst in de blokken horizontaal gecentreerd?</strong>
+  <ul>
+    <li>Er wordt gebruik gemaakt van "text-align: center"</li>
+  </ul></li>
+  </ul>
+<ul>
+  <li><strong>Ga na dat een property vertical-align:center geen effect heeft. Waarom eigenlijk niet? </strong>
+    <ul>
+      <li>Deze functie werkt alleen bij de blok waarde. "vertical-align:center" wordt dus niet gegenereerd bij inline of inline-blok</li>
+    </ul></li>
+</ul>
+<ul>
+  <li><strong>Ga na dat vertical-align:middle er niet voor zorgt dat de tekst verticaal gecentreerd wordt. Wat doet vertical-align dan wel?  </strong>
+    <ul>
+      <li>"Vertical-align:middle" zit de tekst in tabllen wel in de midden. Als het wordt toegepast op een inline-element, positioneert het het element verticaal ten opzichte van de basislijn van de omliggende tekst. De middle waarde betekent dat het element wordt gecentreerd.</li>
+    </ul></li>
+</ul>
+
+<ul>
+  <li><strong>Wat is de ‘simpele’ manier om een één enkele regel tekst verticaal te centreren?</strong>
+    <ul>
+      <li>style="height: 100px; line-height: 100px; text-align: center;"
+        <ul>
+          <li>Height: hoogte van de blok.</li>
+          <li>Line-height: stelt de verticale ruimte in die elke regel tekst inneemt. Door de line-height gelijk te maken aan de hoogte van het blok, wordt de tekst visueel gecentreerd.</li>
+          <li>Text-align: center: centreert de tekst horizontaal.</li>
+        </ul></li>
+    </ul></li>
+</ul>
+<ul>
+  <li><strong>Welke truc wordt vaak gebruikt om meerdere regels verticaal te centreren?</strong>
+    <ul><li>=style "display: table-cell; vertical-align: middle; height: 200px; width: 300px; text-align: center;"
+      <ul>
+        <li>display: table-cell: dit zorgt ervoor dat het element zich gedraagt als een td-element in een tabel, wat inhoud automatisch verticaal centreert.</li>
+        <li>vertical-align: middle: dit zorgt voor de verticale centrering.</li>
+        <li>height en width: definieer de afmetingen van de container om het effect goed te kunnen zien.</li>
+        <li>Text-align: center: centreert de tekst horizontaal.</li>
+      </ul></li>
+    </ul></li>
+</ul>
+<ul>
+  <li><strong> Waarom krijgt de regel voor class 'tall' voorrang?</strong>
+    <ul>
+      <li>.tall krijgt voorang omdat deze meer gespecifieerd is. .tall is ook de extra class selector waardoor deze voorang krijgt.</li>
+    </ul></li>
+</ul>
+
+</body>
+</html>
