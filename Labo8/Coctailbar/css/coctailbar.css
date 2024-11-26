@@ -1,0 +1,68 @@
+header{
+    text-align: center;
+}
+
+body{
+    width: 95%;
+    font: 1.2em verdana, helvetica, arial;
+}
+section{
+    width: 70%;
+}
+section h1 {
+    color:  #007e7e;
+    font-size: 150%;
+}
+
+section h2 {
+    color:  #007e7e;
+    font-size: 130%;
+}
+
+#guarantee{
+    margin: 30px;
+    color: #444444;
+    padding: 20px;
+    background-color: #a7cece;
+    border: 1px dotted white;
+    background-image: url("../images/background.gif");
+    background-position: left top;
+    background-size:50px 50px;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+.WeeklySpecials{
+    display: block;
+    width: 25%;
+    float: right;
+    border: 1px solid #007e7e;
+    text-align: center;
+    background-image: url("../images/cocktail.gif");
+    background-position: top center;
+    background-size:50px 50px;
+    background-repeat: repeat-x;
+    padding: 10px;
+}
+
+.WeeklySpecials h2{
+    color: blueviolet;
+}
+.WeeklySpecials a:hover{
+    background-color: brown;
+}  /* Cursief */
+.cursief {
+    font-style: italic;
+}
+
+.vet {
+    font-weight: bold;
+}
+
+footer{
+    font-size: 50%;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+}
