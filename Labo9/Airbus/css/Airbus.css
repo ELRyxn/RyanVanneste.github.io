@@ -1,0 +1,35 @@
+body{
+    margin: auto;
+}
+header {
+    height: 200px;
+    background-image: url('../images/bgsky3.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: darkblue;
+    text-align: center;
+}
+
+.hoofdtitel {
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+}
+
+.slogan {
+    font-size: 240%;
+    font-weight: bold;
+    margin: 0;
+    padding: 30px;
+
+}
+.vliegtuig {
+    position: absolute;
+    top: 30px;
+    right: 540px;
+    z-index: 1; /* Zorgt ervoor dat het vliegtuig vóór de tekst staat */
+    width: auto;
+    height: auto;
+}
