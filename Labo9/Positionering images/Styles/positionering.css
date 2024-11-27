@@ -1,7 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
-    font-family:  1.25em ,Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 1,25em;
 }
 
 article {
