@@ -58,7 +58,9 @@ section h2 {
 .vet {
     font-weight: bold;
 }
-
+.witruimte{
+    padding-bottom: 200px;
+}
 footer{
     font-size: 50%;
     display: inline-block;
