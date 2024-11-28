@@ -1,5 +1,6 @@
 body{
     margin: auto;
+    width: 95%;
 }
 header {
     height: 200px;
@@ -28,47 +29,97 @@ header {
 .vliegtuig {
     position: absolute;
     top: 30px;
-    right: 540px;
-    z-index: 1; /* Zorgt ervoor dat het vliegtuig vóór de tekst staat */
-    width: auto;
-    height: auto;
-}
-.airbuslogo {
-    position: absolute;
-    top: 200px;
-    left: 15px;
+    right: 500px;
     z-index: 1; /* Zorgt ervoor dat het vliegtuig vóór de tekst staat */
     width: auto;
     height: auto;
 }
 
-.news {
+aside{
     width: 25%;
-    background-color: #dddddd;
-    border: 1px solid #999999;
-    float: right;
-    margin-left: 20px;
+    float:right;
+    text-align: left;
+    display: inline;
+    background-color: lightgrey;
 }
-
-.news p {
-    color: #666666;
-    font-size: 90%;
-    padding: 0 10px;
-}
-
-.news h3 {
+aside h3{
     color: white;
     background-color: blue;
-    text-align: center;
-    font-size: 120%;
-    margin-top: 10px;
-    padding: 5px ;
 }
-main {
-    width: 70%;
+main{
+    width: 75%;
+    display: block;
+    text-align: left;
+
+} .airbuslogo {
+    position: absolute;
+    margin: 20px 20px;
+    top: 200px;
+    left: 30px;
+    z-index: 1;
+    width: auto;
+    height: auto;}
+
+.introductie{
+    margin-left: 150px;
+    margin-right: 10px;
+}
+
+.foto{
+    width: 30%;
+    float: left;
+    margin:auto;
+    background-color: grey;
+    padding: 10px;
+}
+.foto img{
+    padding: 10px;
+    margin: 10px;
+    border: 2px dotted #ccc;
+    background-color: white;
+}
+section {
+    width: 79.6%;
 }
 
 .introductie{
     margin-left: 150px;
     margin-right: 10px;
+}
+.blauwetekst {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #666666; /* Blok achtergrondkleur */
+    color: #fff; /* Tekstkleur */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    line-height: 2em; /* Lijnhoogte */
+    clear: both;
+}
+
+.blokruimtelinks {
+    width: 45%;
+    margin-left: 120px; /* 120px vrije ruimte aan de linkerkant */
+}
+
+.blokruimterechts {
+    width: 45%;
+}
+.bottom a {
+    color: white;
+}
+a:hover {
+    color: red;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
 }
