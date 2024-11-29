@@ -73,6 +73,8 @@ main{
     padding: 10px;
 }
 .foto img{
+    width: 180PX;
+    height: 180px;
     padding: 10px;
     margin: 10px;
     border: 2px dotted #ccc;
