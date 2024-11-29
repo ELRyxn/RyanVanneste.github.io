@@ -30,7 +30,7 @@ header {
     position: absolute;
     top: 30px;
     right: 500px;
-    z-index: 1; /* Zorgt ervoor dat het vliegtuig vóór de tekst staat */
+    z-index: 1;
     width: auto;
     height: auto;
 }
@@ -51,7 +51,8 @@ main{
     display: block;
     text-align: left;
 
-} .airbuslogo {
+}
+.airbuslogo {
     position: absolute;
     margin: 20px 20px;
     top: 200px;
