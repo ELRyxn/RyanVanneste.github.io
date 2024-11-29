@@ -98,17 +98,17 @@ section {
 .bottom {
     display: flex;
     justify-content: space-between;
-    background-color: #666666; /* Blok achtergrondkleur */
-    color: #fff; /* Tekstkleur */
+    background-color: #666666;
+    color: #fff;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    line-height: 2em; /* Lijnhoogte */
+    line-height: 2em;
     clear: both;
 }
 
 .blokruimtelinks {
     width: 45%;
-    margin-left: 120px; /* 120px vrije ruimte aan de linkerkant */
+    margin-left: 120px;
 }
 
 .blokruimterechts {
