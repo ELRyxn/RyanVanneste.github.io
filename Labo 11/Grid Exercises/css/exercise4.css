@@ -10,7 +10,7 @@
     padding:20px;
     background-color: white;
 }
-@media (min-width: 700px) {
+@media screen and (min-width: 700px) {
 
 .block.block1{
 
@@ -49,7 +49,7 @@
 }
 }
 
-@media (max-width: 699px) {
+@media screen and (max-width: 699px) {
     .container{
         display: grid;
         background-color: cornflowerblue;
