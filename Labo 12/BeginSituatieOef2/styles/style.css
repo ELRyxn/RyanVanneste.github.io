@@ -6,5 +6,51 @@ html {
 * {
     padding: 10px;
 }
+body {
+    Font-size: 1em;
+    margin: 5px;
+}
+section, h1 {
+    margin: 5px;
+    padding: 10px;
+}
+section {
+    border: solid 1px #ccc;
+    background-color: white;
+}
+header, footer{
+    background-color: #ddaa00;
+    padding: 10px;
+}
+nav {
+    background-color: grey;
+    padding: 5px 2px;
+    text-align: center;
+    display: flex;
+}
+nav > a {
+    text-decoration: none;
+    margin: 0 5px;
+    border: solid 1px black;
+    background-color: white;
+    color: #e3e300;
+    flex-grow: 1;
+}
+main {
+    background-color: grey;
+}
+img  {
+    padding: 0px;
+}
+@media screen and (max-width: 700px) {
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
-
+@media screen and (min-width: 701px) {
+    main {
+        display: flex;
+    }
+}
