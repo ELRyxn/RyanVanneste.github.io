@@ -34,7 +34,6 @@ header {
     width: auto;
     height: auto;
 }
-
 aside{
     width: 25%;
     float:right;
@@ -64,6 +63,10 @@ main{
 .introductie{
     margin-left: 150px;
     margin-right: 10px;
+}
+
+.gallery{
+    width: 79.6%;
 }
 
 .foto{
